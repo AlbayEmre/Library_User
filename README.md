@@ -1,12 +1,43 @@
-Library_User - Easy Access to the World of Books!
+# 📚 Library User
 
-With the Library_User app, discover your favorite books, add them to your favorites, and dive into detailed descriptions. Search for books in your library, filter by categories, and see the most popular reads.
+**Library User**, Flutter ve Firebase teknolojileri kullanılarak geliştirilen bir **kütüphane uygulamasının kullanıcı tarafıdır**. Kullanıcılar kitapları görüntüleyebilir, detaylarını inceleyebilir, çantalarına ekleyebilir ve modern bir arayüzle etkileşime geçebilirler. Uygulama; Android, iOS, Web ve masaüstü platformlarında çalışacak şekilde çoklu platform desteğiyle yapılandırılmıştır.
 
-App Features:
-Book Catalog: Explore hundreds of books across different categories like Scientific, Dystopian, Historical, and more!
-Like and Add to Favorites: Save your favorite books for easy access later.
-Detailed Book Information: Get detailed info on each book, including the publisher, author, and a full description.
-Book Rental: Rent the book you want by using the rental code provided by the library manager.
-Personal Profile: Access your user information, favorite books, and viewing history easily.
-Dark Mode: Enjoy browsing without straining your eyes with a sleek dark mode!
-Your gateway to the world of books is just a tap away! Browse, like, and rent books effortlessly.
+---
+
+## ✨ Özellikler
+
+- 🔐 Google hesabı ile giriş (Firebase Authentication)
+- 📚 Kitapları listeleme, detaylarını görme ve kullanıcı çantası
+- 🎯 Kategoriye göre filtreleme ve arama
+- 🖼️ Firebase Storage ile kitap kapaklarını görüntüleme
+- 🔥 Firestore ile gerçek zamanlı veri senkronizasyonu
+- 🎨 Lottie animasyonları, shimmer efektleri ve dinamik UI
+- 🧱 Responsive tasarım – mobil, web, masaüstü uyumlu
+
+---
+
+## 🛠️ Kullanılan Teknolojiler ve Paketler
+
+- **Flutter** – UI geliştirme çatısı
+- **Firebase Core / Auth / Firestore / Storage** – kullanıcı, veri ve medya yönetimi
+- **Provider** – state management
+- **Shared Preferences** – kullanıcı ayarlarının saklanması
+- **Lottie**, **Shimmer** – animasyonlar ve efektler
+- **Card Swiper**, **Fancy Shimmer Image** – görsel geçiş ve kart yapıları
+- **Image Picker**, **UUID**, **Toast**, **HTTP** – yardımcı fonksiyonlar
+
+---
+
+## 🚀 Kurulum
+
+```bash
+# 1. Projeyi klonla
+git clone https://github.com/AlbayEmre/Library_User.git
+cd Library_User
+
+# 2. Gerekli paketleri yükle
+flutter pub get
+
+# 3. Uygulamayı başlat (cihaza göre değiştir)
+flutter run -d chrome
+# veya: flutter run -d android / ios / windows
